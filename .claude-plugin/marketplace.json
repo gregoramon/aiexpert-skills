@@ -1,0 +1,33 @@
+{
+  "name": "aiexpert",
+  "description": "Skills by AI Expert — opinionated tools for video, content, and creative AI workflows.",
+  "owner": {
+    "name": "Gregor Amon",
+    "email": "gregor@aiexpert.ae"
+  },
+  "plugins": [
+    {
+      "name": "shotcraft",
+      "source": "./plugins/shotcraft",
+      "description": "Generate copy-paste-ready Seedance 2.0 video prompts from a creative brief — shot-by-shot timeline in cinematic language.",
+      "version": "1.0.0",
+      "author": {
+        "name": "AI Expert",
+        "email": "gregor@aiexpert.ae"
+      },
+      "homepage": "https://aiexpert.ae",
+      "repository": "https://github.com/gregoramon/aiexpert-skills",
+      "license": "MIT",
+      "keywords": [
+        "video",
+        "seedance",
+        "prompt",
+        "cinematic",
+        "shot-list",
+        "ai-video",
+        "creative"
+      ],
+      "category": "creative"
+    }
+  ]
+}

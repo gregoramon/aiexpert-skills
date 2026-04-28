@@ -1,0 +1,114 @@
+# SHOTCRAFT REFERENCE
+Worked example: Single-Origin Espresso — 15s cinematic macro film
+
+Use this as a calibration target for detail level, cinematic vocabulary, and structure.
+The output for a real brief should match this density and specificity. The scenario is a
+product/craft film, but the same approach scales to commercial, social vertical,
+cinematic interview, and UGC — see the domain matrix in SKILL.md.
+
+================================================================
+SHOT-BY-SHOT TIMELINE
+================================================================
+
+SHOT 1 (00:00-00:01) — Drop on Hot Copper
+• EFFECT: extreme macro + speed ramp (deceleration) + thermal haze
+• A single droplet of water lands on the polished copper boiler of an espresso machine and flashes to vapor on contact
+• Camera: 100mm macro, locked-off; frame composed tight on the contact point with the rest of the boiler falling into shallow defocus
+• Light: single hard key from upper-left, deep falloff into a black surround; specular hit on the polished copper
+• Grade: warm clean, lifted blacks, slight filmic halation around the highlight
+• Speed: 240fps overcrank decelerating into the impact, then a brief beat at full slow-motion as the steam unfurls
+• Exit: the steam plume rises and fills frame, becoming the wipe into Shot 2
+
+SHOT 2 (00:01-00:03) — Tamp
+• EFFECT: push-in dolly + shallow DOF
+• A hand seats fresh grounds into a portafilter and tamps once, decisively; the tamper lifts with a quarter-turn polish
+• Camera: 50mm at f/2, shoulder-height push-in toward the portafilter, parallax against the bar surface
+• Light: tungsten practical from the espresso machine spilling warm onto the hand; softened key from camera-left
+• Grade: warm clean, controlled highlights on the metal
+• Speed: 24fps, real time
+• Exit: tamper lifts away — quick cut on the upward motion
+
+SHOT 3 (00:03-00:04) — Grinder Burst (SIGNATURE)
+• EFFECT: 240fps deep slow-motion + radial motion blur + speed ramp on exit
+• Coffee grounds explode outward from the grinder chute in a fine cloud, individual grains visible against a dark backdrop
+• Camera: 85mm at f/2, locked-off, framed dead-centre with negative space top and bottom
+• Light: single hard top-light, rim light from behind through the cloud
+• Grade: high-contrast, near-bleach-bypass; grounds read as warm against black
+• Speed: 240fps overcrank — the slowest moment in the film — ramping up to 24fps as the grounds settle
+• Exit: speed ramp into Shot 4; the cloud snaps to stillness
+
+SHOT 4 (00:04-00:05) — Lock-In
+• EFFECT: top-down macro + locked-off
+• Portafilter handle rotates into the espresso machine group head and locks home with a quarter-turn
+• Camera: 100mm macro, top-down, dead vertical
+• Light: tungsten machine practical underlighting the metal; cool fill from above
+• Grade: warm clean
+• Speed: 24fps, real time
+• Exit: hard cut on the click
+
+SHOT 5 (00:05-00:07) — First Drips
+• EFFECT: anamorphic macro + 240fps deep slow-motion + rack focus
+• Twin streams of espresso emerge from the portafilter spouts, dark amber tightening to mahogany; the first drops fall into a glass demitasse
+• Camera: 100mm anamorphic-style (oval bokeh, horizontal flare on the rim light), eye-level with the spouts
+• Light: hard rim from behind the glass, tungsten key from camera-left; glass rim catches a horizontal lens flare
+• Grade: warm filmic, deep amber midtones
+• Speed: 240fps overcrank, full deep slow-motion
+• Exit: focus pulls from the spouts to the surface of the cup
+
+SHOT 6 (00:07-00:08) — Crema Forming
+• EFFECT: macro orbit + shallow DOF
+• Crema swirls into a tiger-stripe pattern across the surface of the espresso
+• Camera: 100mm macro on a slow ~30° orbit around the cup
+• Light: single overhead soft key, no fill — strong falloff into a black surround
+• Grade: warm clean, deep amber
+• Speed: 48fps gentle overcrank
+• Exit: motion-blur whip into Shot 7
+
+SHOT 7 (00:08-00:10) — Barista, Profile
+• EFFECT: 85mm shallow DOF + tungsten practical motivation
+• Side profile of the barista, eyes down on the machine, steam rising past the face
+• Camera: 85mm at f/1.4, locked-off, eye-level
+• Light: tungsten practical from the machine motivating warm key on the cheek; cool ambient fill from the room
+• Grade: split warm/cool — warm skin, cooler background
+• Speed: 24fps, real time
+• Exit: held beat, then soft cut
+
+SHOT 8 (00:10-00:11) — Spoon Through Crema
+• EFFECT: top-down macro + slow-motion
+• A small spoon drags a slow line through the crema; the surface heals behind it
+• Camera: 100mm macro, top-down, locked-off
+• Light: single overhead soft key
+• Grade: warm filmic
+• Speed: 96fps overcrank
+• Exit: hard cut
+
+SHOT 9 (00:11-00:13) — Lift From Grate
+• EFFECT: hard backlight + atmospheric steam + slow dolly-back
+• The cup is lifted from the drip tray; thick steam catches the backlight and fills the frame
+• Camera: 35mm, shoulder-height, slow dolly-back as the cup rises
+• Light: single hard backlight from behind the machine, no fill — the steam reads as a luminous volume
+• Grade: warm clean, blooming highlights
+• Speed: 48fps gentle overcrank
+• Exit: steam clears as the cup moves out of the machine area
+
+SHOT 10 (00:13-00:14) — Placed on Saucer
+• EFFECT: natural window light + locked-off
+• The cup is set on a saucer in front of a seated customer; the saucer meets the wood with a small contact sound
+• Camera: 50mm, locked-off, three-quarter angle
+• Light: soft window light from camera-right, deep ambient shadow on the left
+• Grade: warm clean, slightly desaturated
+• Speed: 24fps, real time
+• Exit: cup settles, beat held
+
+SHOT 11 (00:14-00:15) — First Sip / Rack
+• EFFECT: rack focus + held close
+• The cup tilts to the lips; focus pulls from the rim of the cup to the eyes above it
+• Camera: 85mm at f/1.4, slight tilt-up as the cup rises
+• Light: same soft window light
+• Grade: warm clean
+• Speed: 24fps, real time
+• Exit: hold on the eyes for the final half-second; fade to black
+
+================================================================
+END OF REFERENCE
+================================================================
