@@ -1,113 +1,117 @@
 # SHOTCRAFT REFERENCE
 Worked example: Single-Origin Espresso — 15s cinematic macro film
 
-Use this as a calibration target for detail level, cinematic vocabulary, and structure.
-The output for a real brief should match this density and specificity. The scenario is a
-product/craft film, but the same approach scales to commercial, social vertical,
-cinematic interview, and UGC — see the domain matrix in SKILL.md.
+This is the calibration target for detail level, prose density, vocabulary, and structure.
+Match this density and specificity for any brief. The scenario here is a product / craft
+film — the same beat structure scales to commercial, social vertical, cinematic interview,
+and UGC by shifting the register. See the domain matrix in SKILL.md.
 
 ================================================================
-SHOT-BY-SHOT TIMELINE
+BEAT-BY-BEAT TIMELINE
 ================================================================
 
-SHOT 1 (00:00-00:01) — Drop on Hot Copper
+BEAT 1 (00:00-00:01) — First Heat
 • EFFECT: extreme macro + speed ramp (deceleration) + thermal haze
-• A single droplet of water lands on the polished copper boiler of an espresso machine and flashes to vapor on contact
-• Camera: 100mm macro, locked-off; frame composed tight on the contact point with the rest of the boiler falling into shallow defocus
-• Light: single hard key from upper-left, deep falloff into a black surround; specular hit on the polished copper
-• Grade: warm clean, lifted blacks, slight filmic halation around the highlight
-• Speed: 240fps overcrank decelerating into the impact, then a brief beat at full slow-motion as the steam unfurls
-• Exit: the steam plume rises and fills frame, becoming the wipe into Shot 2
+• VISUAL: A single droplet of water lands on the polished copper boiler of an espresso machine and flashes to vapour on contact. Frame composed tight on the impact point — copper grain visible, the curve of the boiler falling into deep amber defocus. NOT decorative steam: this is contact-physics violence at small scale, the moment a liquid stops being liquid.
+• CAMERA: 100mm macro, locked-off; the contact point sits dead-centre with shallow defocus pulling the rest of the boiler into soft warmth.
+• LIGHT + GRADE: single hard key from upper-left, deep falloff into a black surround; specular hit on the polished copper. Warm clean grade, lifted blacks, slight filmic halation around the highlight.
+• AUDIO: a sharp close-mic'd hiss as the droplet vapourises, isolated against near-silence — no score yet, just room tone and the machine's distant hum. The hiss is loud, intimate.
+• TIMING: 240fps overcrank decelerating into the impact, then a brief beat at full slow-motion as the steam unfurls.
+• EXIT: the steam plume rises and fills frame, becoming the wipe into Beat 2.
 
-SHOT 2 (00:01-00:03) — Tamp
+BEAT 2 (00:01-00:03) — Tamp
 • EFFECT: push-in dolly + shallow DOF
-• A hand seats fresh grounds into a portafilter and tamps once, decisively; the tamper lifts with a quarter-turn polish
-• Camera: 50mm at f/2, shoulder-height push-in toward the portafilter, parallax against the bar surface
-• Light: tungsten practical from the espresso machine spilling warm onto the hand; softened key from camera-left
-• Grade: warm clean, controlled highlights on the metal
-• Speed: 24fps, real time
-• Exit: tamper lifts away — quick cut on the upward motion
+• VISUAL: A barista's hand — visible to mid-forearm, sleeve rolled cleanly to the elbow, no jewellery, short nails — seats fresh grounds into a portafilter and tamps once, decisively. The tamper lifts with a quarter-turn polish. The wrist motion is short, controlled, practised. NOT ceremonial. This is muscle memory, not performance.
+• CAMERA: 50mm normal lens look, shoulder-height push-in toward the portafilter, parallax against the bar surface. The push-in is slow and motivated — leaning in, not zooming. ARRI ALEXA aesthetic, controlled highlights.
+• LIGHT + GRADE: tungsten practical from the espresso machine spilling warm onto the hand; softened key from camera-left. Warm clean, controlled highlights on the metal.
+• AUDIO: a short metallic clack as the tamper meets the basket, then a softer rotating squeak as it lifts. Room tone holds. No score yet.
+• TIMING: 24fps, real time.
+• EXIT: tamper lifts away — quick cut on the upward motion.
 
-SHOT 3 (00:03-00:04) — Grinder Burst (SIGNATURE)
+BEAT 3 (00:03-00:04) — Grinder Burst
 • EFFECT: 240fps deep slow-motion + radial motion blur + speed ramp on exit
-• Coffee grounds explode outward from the grinder chute in a fine cloud, individual grains visible against a dark backdrop
-• Camera: 85mm at f/2, locked-off, framed dead-centre with negative space top and bottom
-• Light: single hard top-light, rim light from behind through the cloud
-• Grade: high-contrast, near-bleach-bypass; grounds read as warm against black
-• Speed: 240fps overcrank — the slowest moment in the film — ramping up to 24fps as the grounds settle
-• Exit: speed ramp into Shot 4; the cloud snaps to stillness
+• VISUAL: Coffee grounds explode outward from the grinder chute in a fine cloud, individual grains visible against pure black. The cloud has structure — a denser core, a lighter halo, fine particles drifting outward in slow arcs. No environmental detail in the background, just void.
+• CAMERA: 85mm portrait look, extremely shallow depth of field, locked-off, framed dead-centre with negative space top and bottom. Sony Venice aesthetic — deep blacks, rich amber roll-off.
+• LIGHT + GRADE: single hard top-light, rim light from behind through the cloud — the rim defines the edge of every grain. High-contrast, near-bleach-bypass; grounds read as warm against black.
+• AUDIO: the grinder's mechanical whirr drops to subsonic as the speed ramps; a low score note enters — a single sustained tone, not melody. Faint wind-rush layered over the slow-mo cloud.
+• TIMING: 240fps overcrank — the slowest moment in the film — ramping up to 24fps as the grounds settle.
+• EXIT: speed ramp into Beat 4; the cloud snaps to stillness.
+• (SIGNATURE) — the burst.
 
-SHOT 4 (00:04-00:05) — Lock-In
+BEAT 4 (00:04-00:05) — Lock-In
 • EFFECT: top-down macro + locked-off
-• Portafilter handle rotates into the espresso machine group head and locks home with a quarter-turn
-• Camera: 100mm macro, top-down, dead vertical
-• Light: tungsten machine practical underlighting the metal; cool fill from above
-• Grade: warm clean
-• Speed: 24fps, real time
-• Exit: hard cut on the click
+• VISUAL: Portafilter handle rotates into the espresso machine group head and locks home with a quarter-turn. The hand grips firm, the wrist twists with one decisive motion. Metal meets metal precisely — no fumble, no second adjustment.
+• CAMERA: 100mm macro, top-down, dead vertical.
+• LIGHT + GRADE: tungsten machine practical underlighting the metal; cool fill from above. Warm clean grade.
+• AUDIO: a single mechanical CLICK at the lock — close-mic'd, almost over-emphasised. The score sustains underneath.
+• TIMING: 24fps, real time.
+• EXIT: hard cut on the click.
 
-SHOT 5 (00:05-00:07) — First Drips
+BEAT 5 (00:05-00:07) — First Drips
 • EFFECT: anamorphic macro + 240fps deep slow-motion + rack focus
-• Twin streams of espresso emerge from the portafilter spouts, dark amber tightening to mahogany; the first drops fall into a glass demitasse
-• Camera: 100mm anamorphic-style (oval bokeh, horizontal flare on the rim light), eye-level with the spouts
-• Light: hard rim from behind the glass, tungsten key from camera-left; glass rim catches a horizontal lens flare
-• Grade: warm filmic, deep amber midtones
-• Speed: 240fps overcrank, full deep slow-motion
-• Exit: focus pulls from the spouts to the surface of the cup
+• VISUAL: Twin streams of espresso emerge from the portafilter spouts, dark amber tightening to mahogany. The first drops fall in slow tension, elongating before they release, then plunge into a glass demitasse below. The crema begins to gather on the surface. Each droplet has weight; nothing is rushed.
+• CAMERA: 100mm anamorphic-style — oval bokeh, horizontal flare on the rim light. Eye-level with the spouts.
+• LIGHT + GRADE: hard rim from behind the glass, tungsten key from camera-left; the glass rim catches a horizontal lens flare. Warm filmic, deep amber midtones.
+• AUDIO: an extreme low-frequency drone underneath the slow-mo — felt more than heard. The drips themselves are silent; the score holds the moment, no foley.
+• TIMING: 240fps overcrank, full deep slow-motion.
+• EXIT: focus pulls from the spouts to the surface of the cup.
 
-SHOT 6 (00:07-00:08) — Crema Forming
+BEAT 6 (00:07-00:08) — Crema Forming
 • EFFECT: macro orbit + shallow DOF
-• Crema swirls into a tiger-stripe pattern across the surface of the espresso
-• Camera: 100mm macro on a slow ~30° orbit around the cup
-• Light: single overhead soft key, no fill — strong falloff into a black surround
-• Grade: warm clean, deep amber
-• Speed: 48fps gentle overcrank
-• Exit: motion-blur whip into Shot 7
+• VISUAL: Crema swirls into a tiger-stripe pattern across the surface of the espresso — concentric rings of dark amber and pale tan, the surface alive with micro-currents.
+• CAMERA: 100mm macro on a slow ~30° orbit around the cup. The orbit is meditative, NOT showy.
+• LIGHT + GRADE: single overhead soft key, no fill — strong falloff into a black surround. Warm clean, deep amber.
+• AUDIO: the score breathes back in — a second sustained tone joining the first, opening into a fifth. A faint cup-resonance, the ceramic softly humming under the liquid.
+• TIMING: 48fps gentle overcrank.
+• EXIT: motion-blur whip into Beat 7.
 
-SHOT 7 (00:08-00:10) — Barista, Profile
+BEAT 7 (00:08-00:10) — Barista, Profile
 • EFFECT: 85mm shallow DOF + tungsten practical motivation
-• Side profile of the barista, eyes down on the machine, steam rising past the face
-• Camera: 85mm at f/1.4, locked-off, eye-level
-• Light: tungsten practical from the machine motivating warm key on the cheek; cool ambient fill from the room
-• Grade: split warm/cool — warm skin, cooler background
-• Speed: 24fps, real time
-• Exit: held beat, then soft cut
+• VISUAL: Side profile of the barista, eyes down on the machine. Steam rising past the cheek, fogging the air around the temple. Jaw closed, lips relaxed. The expression is concentration without drama — present, unhurried, NOT performative. A small bead of sweat at the hairline catches the warm light. Apron strap just visible at the shoulder edge, dark fabric, no logo.
+• CAMERA: 85mm portrait, extremely shallow depth of field, locked-off, eye-level.
+• LIGHT + GRADE: tungsten practical from the machine motivating warm key on the cheek; cool ambient fill from the room. Split warm/cool — warm skin, cooler background.
+• AUDIO: the score holds. Faint clink of cup-on-saucer somewhere off-camera. Distant traffic outside, low and unidentifiable.
+• TIMING: 24fps, real time.
+• EXIT: held beat, then soft cut.
 
-SHOT 8 (00:10-00:11) — Spoon Through Crema
+BEAT 8 (00:10-00:11) — Spoon Through Crema
 • EFFECT: top-down macro + slow-motion
-• A small spoon drags a slow line through the crema; the surface heals behind it
-• Camera: 100mm macro, top-down, locked-off
-• Light: single overhead soft key
-• Grade: warm filmic
-• Speed: 96fps overcrank
-• Exit: hard cut
+• VISUAL: A small spoon drags a slow line through the crema; the surface heals behind it as the bubbles re-knit. The spoon's edge is matte stainless, no sheen — clean, unremarkable, functional.
+• CAMERA: 100mm macro, top-down, locked-off.
+• LIGHT + GRADE: single overhead soft key. Warm filmic.
+• AUDIO: a soft viscous hush as the spoon moves — barely audible. Score continues underneath, holding.
+• TIMING: 96fps overcrank.
+• EXIT: hard cut.
 
-SHOT 9 (00:11-00:13) — Lift From Grate
+BEAT 9 (00:11-00:13) — Lift From Grate
 • EFFECT: hard backlight + atmospheric steam + slow dolly-back
-• The cup is lifted from the drip tray; thick steam catches the backlight and fills the frame
-• Camera: 35mm, shoulder-height, slow dolly-back as the cup rises
-• Light: single hard backlight from behind the machine, no fill — the steam reads as a luminous volume
-• Grade: warm clean, blooming highlights
-• Speed: 48fps gentle overcrank
-• Exit: steam clears as the cup moves out of the machine area
+• VISUAL: The cup is lifted from the drip tray — barista's hand cradling it lightly by the saucer edge, two fingers underneath, no grip-tension. Thick steam catches the backlight and fills the frame, the cup partly silhouetted, partly luminous through the haze.
+• CAMERA: 35mm, shoulder-height, slow dolly-back as the cup rises. The dolly is gentle — ceremonial WITHOUT being slow.
+• LIGHT + GRADE: single hard backlight from behind the machine, no fill — the steam reads as a luminous volume. Warm clean, blooming highlights.
+• AUDIO: the score lifts a third tone — a small lift in harmonic density. Steam-hiss subtle. No dialogue.
+• TIMING: 48fps gentle overcrank.
+• EXIT: steam clears as the cup moves out of the machine area.
 
-SHOT 10 (00:13-00:14) — Placed on Saucer
+BEAT 10 (00:13-00:14) — Placed on Saucer
 • EFFECT: natural window light + locked-off
-• The cup is set on a saucer in front of a seated customer; the saucer meets the wood with a small contact sound
-• Camera: 50mm, locked-off, three-quarter angle
-• Light: soft window light from camera-right, deep ambient shadow on the left
-• Grade: warm clean, slightly desaturated
-• Speed: 24fps, real time
-• Exit: cup settles, beat held
+• VISUAL: The cup is set on a saucer in front of a seated customer. The saucer meets the wood with a small contact sound. The customer's hands, just visible at the edge of frame, rest on the table — fingers loose, NOT anticipating. They wear a heather-grey crewneck, sleeves pushed once at the cuff. NOT formal, NOT styled — this is a regular morning.
+• CAMERA: 50mm, locked-off, three-quarter angle on the cup.
+• LIGHT + GRADE: soft window light from camera-right, deep ambient shadow on the left. Warm clean, slightly desaturated.
+• AUDIO: the small ceramic click of the saucer touchdown is mic'd close. Café ambience underneath — distant chairs, a low conversation just out of sight, no music in the room itself (only score).
+• TIMING: 24fps, real time.
+• EXIT: cup settles, beat held.
 
-SHOT 11 (00:14-00:15) — First Sip / Rack
+BEAT 11 (00:14-00:15) — First Sip
 • EFFECT: rack focus + held close
-• The cup tilts to the lips; focus pulls from the rim of the cup to the eyes above it
-• Camera: 85mm at f/1.4, slight tilt-up as the cup rises
-• Light: same soft window light
-• Grade: warm clean
-• Speed: 24fps, real time
-• Exit: hold on the eyes for the final half-second; fade to black
+• VISUAL: The cup tilts to lips that are barely parted — a controlled, exploratory first sip, NOT a performance pull. The customer's eyes close briefly on contact, then open. Focus pulls from the rim of the cup to those eyes; a second of held attention; a small involuntary exhale through the nose.
+• CAMERA: 85mm portrait, extremely shallow depth of field, slight tilt-up as the cup rises.
+• LIGHT + GRADE: same soft window light. Warm clean.
+• AUDIO: the score reaches its quietest point — a single tone holding. The exhale is audible, close-mic'd, intimate. The film ends on that breath.
+• TIMING: 24fps, real time.
+• EXIT: hold on the eyes for the final half-second; fade to black with the score's final tone tailing off.
+• (SIGNATURE) — the resolution.
+
+CONSTRAINTS: avoid jitter, avoid identity drift, avoid bent limbs, avoid temporal flicker
 
 ================================================================
 END OF REFERENCE
