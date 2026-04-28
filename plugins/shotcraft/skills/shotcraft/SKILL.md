@@ -17,7 +17,7 @@ Turn a brief into a copy-paste-ready Seedance 2.0 prompt: a beat-by-beat timelin
 
 Each beat is one block:
 
-```
+```text
 BEAT [N] ([timestamp]) — [Story title]
 • EFFECT: [primary effect] + [stacked effects]
 • VISUAL: [Prose: subject, wardrobe, body language, action, framing, environment. Use negative directives where the wrong default is plausible — "NOT slow," "NOT ceremonial," "NOT showy."]
@@ -31,7 +31,7 @@ BEAT [N] ([timestamp]) — [Story title]
 
 End every prompt with a constraints footer (Seedance-native stabilizers — include the ones that match the scene):
 
-```
+```text
 CONSTRAINTS: avoid jitter, avoid identity drift, avoid bent limbs, avoid temporal flicker
 ```
 
