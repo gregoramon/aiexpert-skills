@@ -9,7 +9,7 @@
     {
       "name": "shotcraft",
       "source": "./plugins/shotcraft",
-      "description": "Generate copy-paste-ready Seedance 2.0 video prompts from a creative brief — shot-by-shot timeline in cinematic language.",
+      "description": "Generate copy-paste-ready Seedance 2.0 video prompts from a creative brief — beat-by-beat timeline in cinematic language.",
       "version": "1.1.0",
       "author": {
         "name": "AI Expert",
