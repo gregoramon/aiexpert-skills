@@ -30,6 +30,19 @@ If skills don't appear right away, run `/reload-plugins` and restart Claude Code
 3. Click **Upload custom skill** and select `shotcraft.skill`.
 4. The skill is now available in your conversations — just describe a video brief and Claude will use Shotcraft to write the prompt.
 
+### ChatGPT (Custom GPTs)
+
+ChatGPT doesn't accept `.skill` zips, but Custom GPTs work great.
+
+1. Download **[`shotcraft-gpt.md`](https://github.com/gregoramon/aiexpert-skills/raw/main/shotcraft-gpt.md)** — a single combined file with the skill instructions and the worked-example reference.
+2. Open ChatGPT → **Explore GPTs → Create a GPT**.
+3. In the **Configure** tab → **Instructions** field, paste this short block:
+   > *You are Shotcraft, an AI Expert tool that turns a creative brief into a copy-paste-ready Seedance 2.0 video prompt — a beat-by-beat timeline. Before generating, read the attached `shotcraft-gpt.md` knowledge file in full to calibrate output structure, vocabulary, and constraints. Output only the beat-by-beat timeline — no preamble, no commentary.*
+4. In the **Knowledge** section, upload `shotcraft-gpt.md`.
+5. Save. Try a brief like *"15-second cinematic espresso macro film."*
+
+The header of `shotcraft-gpt.md` repeats these steps and offers an alternative route if your tier supports long Instructions.
+
 ### Anthropic API / Claude Agent SDK
 
 Skills load programmatically by pointing the SDK at a folder (not a `.skill` zip). Clone this repo and reference:

@@ -23,7 +23,7 @@ BEAT 1 (00:00-00:01) — First Heat
 BEAT 2 (00:01-00:03) — Tamp
 • EFFECT: push-in dolly + shallow DOF
 • VISUAL: A barista's hand — visible to mid-forearm, sleeve rolled cleanly to the elbow, no jewellery, short nails — seats fresh grounds into a portafilter and tamps once, decisively. The tamper lifts with a quarter-turn polish. The wrist motion is short, controlled, practised. NOT ceremonial. This is muscle memory, not performance.
-• CAMERA: 50mm at f/2, shoulder-height push-in toward the portafilter, parallax against the bar surface. The push-in is slow and motivated — leaning in, not zooming.
+• CAMERA: 50mm normal lens look, shoulder-height push-in toward the portafilter, parallax against the bar surface. The push-in is slow and motivated — leaning in, not zooming. ARRI ALEXA aesthetic, controlled highlights.
 • LIGHT + GRADE: tungsten practical from the espresso machine spilling warm onto the hand; softened key from camera-left. Warm clean, controlled highlights on the metal.
 • AUDIO: a short metallic clack as the tamper meets the basket, then a softer rotating squeak as it lifts. Room tone holds. No score yet.
 • TIMING: 24fps, real time.
@@ -32,7 +32,7 @@ BEAT 2 (00:01-00:03) — Tamp
 BEAT 3 (00:03-00:04) — Grinder Burst
 • EFFECT: 240fps deep slow-motion + radial motion blur + speed ramp on exit
 • VISUAL: Coffee grounds explode outward from the grinder chute in a fine cloud, individual grains visible against pure black. The cloud has structure — a denser core, a lighter halo, fine particles drifting outward in slow arcs. No environmental detail in the background, just void.
-• CAMERA: 85mm at f/2, locked-off, framed dead-centre with negative space top and bottom.
+• CAMERA: 85mm portrait look, extremely shallow depth of field, locked-off, framed dead-centre with negative space top and bottom. Sony Venice aesthetic — deep blacks, rich amber roll-off.
 • LIGHT + GRADE: single hard top-light, rim light from behind through the cloud — the rim defines the edge of every grain. High-contrast, near-bleach-bypass; grounds read as warm against black.
 • AUDIO: the grinder's mechanical whirr drops to subsonic as the speed ramps; a low score note enters — a single sustained tone, not melody. Faint wind-rush layered over the slow-mo cloud.
 • TIMING: 240fps overcrank — the slowest moment in the film — ramping up to 24fps as the grounds settle.
@@ -69,7 +69,7 @@ BEAT 6 (00:07-00:08) — Crema Forming
 BEAT 7 (00:08-00:10) — Barista, Profile
 • EFFECT: 85mm shallow DOF + tungsten practical motivation
 • VISUAL: Side profile of the barista, eyes down on the machine. Steam rising past the cheek, fogging the air around the temple. Jaw closed, lips relaxed. The expression is concentration without drama — present, unhurried, NOT performative. A small bead of sweat at the hairline catches the warm light. Apron strap just visible at the shoulder edge, dark fabric, no logo.
-• CAMERA: 85mm at f/1.4, locked-off, eye-level.
+• CAMERA: 85mm portrait, extremely shallow depth of field, locked-off, eye-level.
 • LIGHT + GRADE: tungsten practical from the machine motivating warm key on the cheek; cool ambient fill from the room. Split warm/cool — warm skin, cooler background.
 • AUDIO: the score holds. Faint clink of cup-on-saucer somewhere off-camera. Distant traffic outside, low and unidentifiable.
 • TIMING: 24fps, real time.
@@ -105,12 +105,14 @@ BEAT 10 (00:13-00:14) — Placed on Saucer
 BEAT 11 (00:14-00:15) — First Sip
 • EFFECT: rack focus + held close
 • VISUAL: The cup tilts to lips that are barely parted — a controlled, exploratory first sip, NOT a performance pull. The customer's eyes close briefly on contact, then open. Focus pulls from the rim of the cup to those eyes; a second of held attention; a small involuntary exhale through the nose.
-• CAMERA: 85mm at f/1.4, slight tilt-up as the cup rises.
+• CAMERA: 85mm portrait, extremely shallow depth of field, slight tilt-up as the cup rises.
 • LIGHT + GRADE: same soft window light. Warm clean.
 • AUDIO: the score reaches its quietest point — a single tone holding. The exhale is audible, close-mic'd, intimate. The film ends on that breath.
 • TIMING: 24fps, real time.
 • EXIT: hold on the eyes for the final half-second; fade to black with the score's final tone tailing off.
 • (SIGNATURE) — the resolution.
+
+CONSTRAINTS: avoid jitter, avoid identity drift, avoid temporal flicker
 
 ================================================================
 END OF REFERENCE
