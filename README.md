@@ -30,18 +30,18 @@ If skills don't appear right away, run `/reload-plugins` and restart Claude Code
 3. Click **Upload custom skill** and select `shotcraft.skill`.
 4. The skill is now available in your conversations — just describe a video brief and Claude will use Shotcraft to write the prompt.
 
-### ChatGPT (web / desktop)
-
-OpenAI adopted the open Skills format in December 2025, so the same `shotcraft.skill` file works in ChatGPT too.
-
-1. Download **[`shotcraft.skill`](https://github.com/gregoramon/aiexpert-skills/raw/main/shotcraft.skill)** (the same file as for Claude).
-2. Open ChatGPT → **Skills page** → **New skill** → **Upload from your computer**.
-3. Select `shotcraft.skill`. ChatGPT accepts the `.skill` extension natively (the file requirement is just a `SKILL.md` inside the bundle, which it has).
-4. Save. Try a brief like *"15-second cinematic espresso macro film."*
-
 ### Codex (OpenAI CLI)
 
-Codex reads skills from `~/.codex/skills/`. Either drop the unzipped `shotcraft/` folder there, or use OpenAI's skill loader with the same `.skill` bundle.
+OpenAI's Codex CLI is the place to use Shotcraft on the OpenAI side — skills aren't supported in the ChatGPT consumer app (only Codex).
+
+1. Download **[`shotcraft.skill`](https://github.com/gregoramon/aiexpert-skills/raw/main/shotcraft.skill)** and unzip — you'll get a `SKILL.md` and a `references/` folder.
+2. Place those inside a `shotcraft/` folder and copy that into `~/.codex/skills/`:
+   ```text
+   ~/.codex/skills/shotcraft/
+     ├── SKILL.md
+     └── references/
+   ```
+3. Restart Codex. The skill auto-loads.
 
 ### Anthropic API / Claude Agent SDK
 
