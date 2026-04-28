@@ -36,7 +36,7 @@ OpenAI adopted the open Skills format in December 2025, so the same `shotcraft.s
 
 1. Download **[`shotcraft.skill`](https://github.com/gregoramon/aiexpert-skills/raw/main/shotcraft.skill)** (the same file as for Claude).
 2. Open ChatGPT → **Skills page** → **New skill** → **Upload from your computer**.
-3. Select `shotcraft.skill`. (If your ChatGPT version requires a plain `.zip` extension, rename the file to `shotcraft.zip` first — the contents are identical.)
+3. Select `shotcraft.skill`. ChatGPT accepts the `.skill` extension natively (the file requirement is just a `SKILL.md` inside the bundle, which it has).
 4. Save. Try a brief like *"15-second cinematic espresso macro film."*
 
 ### Codex (OpenAI CLI)
