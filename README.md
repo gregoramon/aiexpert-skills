@@ -30,18 +30,18 @@ If skills don't appear right away, run `/reload-plugins` and restart Claude Code
 3. Click **Upload custom skill** and select `shotcraft.skill`.
 4. The skill is now available in your conversations — just describe a video brief and Claude will use Shotcraft to write the prompt.
 
-### ChatGPT (Custom GPTs)
+### ChatGPT (web / desktop)
 
-ChatGPT doesn't accept `.skill` zips, but Custom GPTs work great.
+OpenAI adopted the open Skills format in December 2025, so the same `shotcraft.skill` file works in ChatGPT too.
 
-1. Download **[`shotcraft-gpt.md`](https://github.com/gregoramon/aiexpert-skills/raw/main/shotcraft-gpt.md)** — a single combined file with the skill instructions and the worked-example reference.
-2. Open ChatGPT → **Explore GPTs → Create a GPT**.
-3. In the **Configure** tab → **Instructions** field, paste this short block:
-   > *You are Shotcraft, an AI Expert tool that turns a creative brief into a copy-paste-ready Seedance 2.0 video prompt — a beat-by-beat timeline. Before generating, read the attached `shotcraft-gpt.md` knowledge file in full to calibrate output structure, vocabulary, and constraints. Output only the beat-by-beat timeline — no preamble, no commentary.*
-4. In the **Knowledge** section, upload `shotcraft-gpt.md`.
-5. Save. Try a brief like *"15-second cinematic espresso macro film."*
+1. Download **[`shotcraft.skill`](https://github.com/gregoramon/aiexpert-skills/raw/main/shotcraft.skill)** (the same file as for Claude).
+2. Open ChatGPT → **Skills page** → **New skill** → **Upload from your computer**.
+3. Select `shotcraft.skill`. (If your ChatGPT version requires a plain `.zip` extension, rename the file to `shotcraft.zip` first — the contents are identical.)
+4. Save. Try a brief like *"15-second cinematic espresso macro film."*
 
-The header of `shotcraft-gpt.md` repeats these steps and offers an alternative route if your tier supports long Instructions.
+### Codex (OpenAI CLI)
+
+Codex reads skills from `~/.codex/skills/`. Either drop the unzipped `shotcraft/` folder there, or use OpenAI's skill loader with the same `.skill` bundle.
 
 ### Anthropic API / Claude Agent SDK
 
@@ -57,25 +57,15 @@ See your SDK's skill-loading docs for the exact configuration call.
 
 Custom skill upload may not be available yet on mobile depending on your app version. Check **Settings → Capabilities → Skills** in your app to see whether upload is supported. If it isn't, the skill still works in any conversation that started on web or desktop with Shotcraft enabled.
 
-### Codex (OpenAI CLI), Gemini CLI, Copilot CLI — manual install
+### Gemini CLI / Copilot CLI / other tools — manual install
 
-The skill format is portable — Shotcraft is a writing skill that doesn't depend on Claude-Code-specific tools, so it ports cleanly to any CLI that supports skills.
+Skills are an open standard. For any CLI that supports them:
 
-1. Clone or download this repo:
-   ```
-   git clone https://github.com/gregoramon/aiexpert-skills.git
-   ```
-2. Copy the skill folder into your CLI's skills directory:
-   ```
-   plugins/shotcraft/skills/shotcraft/  →  <your-cli-skills-directory>/shotcraft/
-   ```
-   Common locations:
-   - **Codex:** check the Codex docs for the current skills path.
-   - **Gemini CLI:** `~/.gemini/skills/` (or wherever your GEMINI.md points).
-   - **Copilot CLI:** check the Copilot CLI docs for the current skills path.
-3. Restart your CLI.
+1. Download `shotcraft.skill` and unzip, or clone this repo.
+2. Copy `plugins/shotcraft/skills/shotcraft/` into your CLI's skills directory (commonly `~/.gemini/skills/` for Gemini CLI; check your tool's docs for the exact path).
+3. Restart the CLI.
 
-The skill is self-contained: a single `SKILL.md` plus a `references/` folder. No dependencies, no tool calls, no platform lock-in.
+The skill is self-contained: one `SKILL.md` plus a `references/` folder. No dependencies, no tool calls, no platform lock-in.
 
 ---
 
