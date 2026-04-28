@@ -23,6 +23,27 @@ Built for product films, commercials, social vertical, cinematic interviews, and
 
 If skills don't appear right away, run `/reload-plugins` and restart Claude Code.
 
+### Claude.ai (web) and Claude Desktop (Mac / Windows)
+
+1. Download the skill bundle: **[`shotcraft.skill`](https://github.com/gregoramon/aiexpert-skills/raw/main/shotcraft.skill)** (a zipped `SKILL.md` + `references/`).
+2. Open Claude → **Settings → Capabilities → Skills**.
+3. Click **Upload custom skill** and select `shotcraft.skill`.
+4. The skill is now available in your conversations — just describe a video brief and Claude will use Shotcraft to write the prompt.
+
+### Anthropic API / Claude Agent SDK
+
+Skills load programmatically by pointing the SDK at a folder (not a `.skill` zip). Clone this repo and reference:
+
+```
+plugins/shotcraft/skills/shotcraft/
+```
+
+See your SDK's skill-loading docs for the exact configuration call.
+
+### Mobile apps (iOS / Android)
+
+Custom skill upload may not be available yet on mobile depending on your app version. Check **Settings → Capabilities → Skills** in your app to see whether upload is supported. If it isn't, the skill still works in any conversation that started on web or desktop with Shotcraft enabled.
+
 ### Codex (OpenAI CLI), Gemini CLI, Copilot CLI — manual install
 
 The skill format is portable — Shotcraft is a writing skill that doesn't depend on Claude-Code-specific tools, so it ports cleanly to any CLI that supports skills.
