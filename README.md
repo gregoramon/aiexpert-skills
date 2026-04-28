@@ -35,13 +35,15 @@ If skills don't appear right away, run `/reload-plugins` and restart Claude Code
 OpenAI's Codex CLI is the place to use Shotcraft on the OpenAI side — skills aren't supported in the ChatGPT consumer app (only Codex).
 
 1. Download **[`shotcraft.skill`](https://github.com/gregoramon/aiexpert-skills/raw/main/shotcraft.skill)** and unzip — you'll get a `SKILL.md` and a `references/` folder.
-2. Place those inside a `shotcraft/` folder and copy that into `~/.codex/skills/`:
+2. Place those inside a `shotcraft/` folder and copy that into your user-scope skills directory `~/.agents/skills/`:
    ```text
-   ~/.codex/skills/shotcraft/
+   ~/.agents/skills/shotcraft/
      ├── SKILL.md
      └── references/
    ```
 3. Restart Codex. The skill auto-loads.
+
+> Older Codex versions used `~/.codex/skills/` — that path still works as a legacy/backwards-compat fallback, but `~/.agents/skills/` is the current standard.
 
 ### Anthropic API / Claude Agent SDK
 
@@ -77,7 +79,7 @@ The skill is self-contained: one `SKILL.md` plus a `references/` folder. No depe
 Once installed, just ask:
 
 - *"Write me a Seedance prompt for a 15-second espresso macro film."*
-- *"Build a shot list for a 20-second sports car commercial, golden hour, anamorphic."*
+- *"Build a shot list for a 15-second sports car commercial, golden hour, anamorphic."*
 - *"Plan a 12-second cinematic interview opening for a founder talking about AI."*
 - *"UGC-style 8-second product reveal for a perfume bottle."*
 
@@ -103,7 +105,13 @@ BEAT 3 (00:03-00:04) — Grinder Burst
 • (SIGNATURE) — the burst.
 ```
 
-Eleven of those, plus a closing `CONSTRAINTS:` line, and you have a 15-second prompt.
+Eleven of those, plus this closing line, and you have a 15-second prompt:
+
+```text
+CONSTRAINTS: avoid jitter, avoid identity drift, avoid bent limbs, avoid temporal flicker
+```
+
+> **Seedance 2.0 caps generations at 15 seconds.** For anything longer, generate multiple ≤15s prompts and stitch them in editing.
 
 ---
 

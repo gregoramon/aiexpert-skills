@@ -18,7 +18,6 @@ BEAT 1 (00:00-00:01) — First Heat
 • AUDIO: a sharp close-mic'd hiss as the droplet vapourises, isolated against near-silence — no score yet, just room tone and the machine's distant hum. The hiss is loud, intimate.
 • TIMING: 240fps overcrank decelerating into the impact, then a brief beat at full slow-motion as the steam unfurls.
 • EXIT: the steam plume rises and fills frame, becoming the wipe into Beat 2.
-• (SIGNATURE) — the cold open.
 
 BEAT 2 (00:01-00:03) — Tamp
 • EFFECT: push-in dolly + shallow DOF
@@ -112,7 +111,7 @@ BEAT 11 (00:14-00:15) — First Sip
 • EXIT: hold on the eyes for the final half-second; fade to black with the score's final tone tailing off.
 • (SIGNATURE) — the resolution.
 
-CONSTRAINTS: avoid jitter, avoid identity drift, avoid temporal flicker
+CONSTRAINTS: avoid jitter, avoid identity drift, avoid bent limbs, avoid temporal flicker
 
 ================================================================
 END OF REFERENCE

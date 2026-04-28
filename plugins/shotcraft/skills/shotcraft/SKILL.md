@@ -29,19 +29,22 @@ BEAT [N] ([timestamp]) — [Story title]
 • (SIGNATURE) — flag here when this beat carries a signature moment.
 ```
 
-End every prompt with a constraints footer (Seedance-native stabilizers — include the ones that match the scene):
+End every prompt with this exact constraints footer. The four stabilizers cover the most common Seedance failure modes — include all four every time, regardless of scene:
 
 ```text
 CONSTRAINTS: avoid jitter, avoid identity drift, avoid bent limbs, avoid temporal flicker
 ```
 
-- `avoid jitter` for stable / locked-off scenes
-- `avoid identity drift` for human subjects across multiple beats
-- `avoid bent limbs` for any human movement
-- `avoid temporal flicker` for longer durations or smooth-motion scenes
+What each stabilizer protects against:
+- `avoid jitter` — frame-level shake / unwanted micro-movement on locked-off shots
+- `avoid identity drift` — subject's face / wardrobe / build mutating across beats
+- `avoid bent limbs` — anatomically broken arms, legs, fingers in motion
+- `avoid temporal flicker` — flicker / strobe artefacts across the duration
 
 Rules:
+- **Total duration must not exceed 15 seconds.** Seedance 2.0 generates a maximum of 15 seconds per pass. For anything longer, generate multiple ≤15s prompts and stitch them in post.
 - Each beat is 1–4 seconds, unless the brief calls for a held moment.
+- **Beat timestamps must be monotonically increasing, contiguous, and non-overlapping.** Each beat starts where the previous beat ended (e.g. `00:00-00:01` then `00:01-00:03`, never `00:00-00:01` then `00:00-00:03`). No gaps unless the brief explicitly calls for a held silent moment.
 - Write VISUAL as PROSE, not a stripped-down checklist. Wardrobe specifics, body-language nuance ("shoulders relaxed, jaw closed, head scanning"), environmental texture, continuity cues — these prevent generic output.
 - Use negative directives where defaults could go wrong. "NOT ceremonial" stops the model drifting into formal-procession choreography. Models drift toward averages; explicit negatives anchor intent.
 - Reason about physics and continuity. If a tall subject enters a sedan, note the duck. If a foreground phone occludes the subject, note when it clears. The model doesn't track scale or consistency — you do.
@@ -50,7 +53,7 @@ Rules:
 - Avoid photography jargon. Seedance is trained on cinematic descriptions, not technical specs — `f/2.8`, `ISO 800`, `1/60s shutter` are noise. Lens focal length as a *look reference* ("85mm portrait," "anamorphic") is fine. Frame rate is fine when it carries a look ("deep slow-motion," "gentle overcrank") but not as a precise number unless meaningful.
 - Stacked effects: list them. Three things at once = name all three.
 - Transitions are beats. Whip pans, autofocus snaps, crowd cheer swells, focus pulls — write them in.
-- Signature moments — 5–10s gets 1, 10–20s gets 1–2, 20–30s gets 2–3. Mark each `(SIGNATURE)` at the end of the block.
+- Signature moments — 5–10s gets 1, 10–15s gets 1–2. Mark each `(SIGNATURE)` at the end of the block.
 - Describe the visual *result*, not the editing software step.
 
 ## Cinematic vocabulary
@@ -94,7 +97,7 @@ Pick the register that matches the brief.
 ## Creative principles
 
 1. **Contrast drives impact.** Alternate dense and clean moments. A slow beat after a fast one hits harder than two fast beats in a row.
-2. **Signature moments matter.** Every video gets at least one — longer pieces can carry two or three. Mark each `(SIGNATURE)`.
+2. **Signature moments matter.** Every video gets at least one — a 15s piece can carry up to two. Mark each `(SIGNATURE)`.
 3. **Transitions are beats.** Whip pans, autofocus snaps, crowd cheer swells, focus pulls — write them in.
 4. **Specificity in the right register.** Numbers, lenses, grades for cinematic; behavioural camera language for UGC. Don't mix.
 5. **Anchor what models drift on.** Detail wardrobe and body language. Use negative directives. Reason about scale and continuity. Write audio. These four are where generic output comes from — leave none to chance.
@@ -103,12 +106,13 @@ Pick the register that matches the brief.
 
 ## Duration calibration
 
-- 5–10s: 4–7 beats, lean, 1 signature.
-- 10–20s: 8–14 beats, 1–2 signatures.
-- 20–30s: 12–20 beats, 2–3 signatures.
-- 30s+: scale up but maintain density contrast — don't fill every second.
+**Seedance 2.0 caps at 15 seconds per generation.** Calibrate within that ceiling:
 
-If the user doesn't specify a duration, default to 15s.
+- 5–8s: 4–6 beats, lean, 1 signature.
+- 8–12s: 6–10 beats, 1–2 signatures.
+- 12–15s: 10–14 beats, 1–2 signatures (the upper limit — the espresso reference is 11 beats × 15s).
+
+If the user doesn't specify, default to 15s. **If the brief asks for longer than 15s, don't try to fit it into one prompt.** Tell the user, then generate multiple ≤15s prompts that stitch together in editing — each one a self-contained beat-by-beat timeline ending in its own `CONSTRAINTS:` footer.
 
 ## Tone
 
